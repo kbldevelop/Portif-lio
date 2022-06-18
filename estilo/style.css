@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #00085C;
+    --cor2: #DCDEF5;
+    --cor3: #0012DB;
+    --cor4: #1F245C;
+    --cor5: #000EA8;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor4);
+    background-attachment: fixed;
+    color: white;
+}
+
+main {
+    min-width: 280px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.567, 0.567);
+}
+
+section.normal {
+    height: 600px;
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+aside {
+    
+    color: var(--cor2);
+    padding: 10px;
+    margin: auto;
+    
+}
+
+aside img {
+    display: flex;
+    margin: auto;
+}
+
+aside h1 {
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+
+
+li {
+    margin-left: 30px;
+    text-align: justify;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+section#imagem {
+    height: 400px;
+    background-image: url('../imagens/fundo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 3px 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+
+section#projeto {
+    padding: 20px;
+    height: 650px;
+    background-color: var(--cor1);
+    
+}
+
+table {
+    padding-top: 20px;
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    background-color: #DCDEF5;
+    color: var(--cor1);
+    border: 2px solid black;
+    
+    
+}
+
+
+td {
+    padding: 10px;
+    border: 2px solid black;
+    vertical-align: middle;
+    text-align: center;
+
+    
+}
+
+td.bot {
+    text-align: center;
+}
+
+td.bot:hover {
+    background-color: #000EA8;
+}
+
+td a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+section#projeto > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.166);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.415);
+}
+
+img#git {
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
