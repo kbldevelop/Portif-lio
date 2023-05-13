@@ -205,8 +205,7 @@ body {
     }
 
     div.fecha {
-        margin: auto;
-        padding-top: 200px;
+        display: none;
     }
 
     #next-button {
