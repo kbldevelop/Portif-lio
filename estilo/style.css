@@ -7,6 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(212, 212, 212);
 }
@@ -188,6 +192,10 @@ a.ver {
     color: white;
 }
 
+a.ver:hover {
+    color: yellow;
+}
+
 div.botao2 {
     margin: auto;
     width: 90vw;
@@ -248,7 +256,7 @@ div.video {
 }
 
 #next-button {
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 #prev-button img, #next-button img {
@@ -261,17 +269,65 @@ div.fecha {
     margin-top: 200px;
 }
 
-/* contatos */  
 
-
-section.contatos {
-    height: 800px;
+img.icone {
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    position: fixed;
+    cursor: pointer;
+    
 }
 
-section.contatos h2 {
+img.icone:hover {
+    bottom: 55px;
+    right: 15px;
+    transition: .4s;
+}
+
+
+img.icone-git {
+    width: 50px;
+    position: absolute;
+    right: 40px;
+    bottom: 120px;
+    position: fixed;
+    box-shadow: 2px 2px 2px white;
+    cursor: pointer;
+}
+
+img.icone-git:hover {
+    bottom: 125px;
+    right: 45px;
+    transition: .4s;
+}
+
+img.icone-linke {
+    width: 50px;
+    position: absolute;
+    right: 40px;
+    bottom: 180px;
+    position: fixed;
+    cursor: pointer;
+}
+
+img.icone-linke:hover {
+    bottom: 185px;
+    right: 45px;
+    transition: .4s;
+}
+
+div.botao3 {
+    padding-top: 400px;
     text-align: center;
-    padding-top: 50px;
+}
+
+a#bot4 {
+    padding: 10px;
+    background-color: red;
+    color: white;
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
-    font-size: 28pt;
+    text-decoration: none;
+    border-radius: 20px;
 }

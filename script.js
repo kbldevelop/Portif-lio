@@ -35,3 +35,19 @@ function prevSlider() {
 
 btnnext,addEventListener('click', nextSlider)
 btnprev,addEventListener('click', prevSlider);
+
+
+
+
+
+function mostrar() {
+    let mostrar = document.getElementById(`menu2`)
+        mostrar.style.display = `block`
+    
+}
+
+function esconder() {
+    let esconde = document.getElementById(`menu2`)
+        esconde.style.display = `none`
+}
+

@@ -44,6 +44,27 @@ body {
     div.fecha{
         display: none;
     }
+
+    span {
+        color: white;
+    }
+
+    span:hover {
+        color: red;
+    }
+
+    menu {
+        display: none;
+    }
+
+    menu a {
+        display: block;
+        margin-left: -100px;
+    }
+
+    menu a.txt2 {
+        width: 100px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -53,6 +74,27 @@ body {
 
     div.titulo {
         margin-top: -100px;
+    }
+
+    span {
+        color: white;
+    }
+
+    span:hover {
+        color: red;
+    }
+
+    menu {
+        display: none;
+    }
+
+    menu a {
+        display: block;
+        margin-left: -100px;
+    }
+
+    menu a.txt2 {
+        width: 100px;
     }
 
     header h1 {
