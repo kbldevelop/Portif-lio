@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+body {
+    background-color: black;
+}
+
+    header {
+        height: 250px;
+    }
+
+    div.titulo {
+        margin-top: -150px;
+    }
+
+    header h1 {
+        font-size: 20pt;
+    }
+
+    input#botao1 {
+        display: none;
+    }
+
+    section.sobre img {
+        display: none;
+    }
+
+    input.bot2 {
+        display: none;
+    }
+
+    section.projetos {
+        height: 2900px;
+    }
+
+    div.botao2 {
+        display: block;
+    }
+
+    div.proj iframe {
+        width: 200px;
+    }
+
+    div.fecha{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    header {
+        height: 300px;
+    }
+
+    div.titulo {
+        margin-top: -100px;
+    }
+
+    header h1 {
+        font-size: 20pt;
+    }
+
+    input#botao1 {
+        display: none;
+    }
+
+    section.sobre img {
+        display: none;
+    }
+
+    input.bot2 {
+        display: none;
+    }
+
+    div.botao2 {
+        display: block;
+    }
+
+    div.proj iframe {
+        width: 200px;
+    }
+
+    div.fecha{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        height: 420px;
+    }
+
+    div.titulo {
+        margin-top: -100px;
+    }
+
+    header h1 {
+        font-size: 28pt;
+    }
+
+    input#botao1 {
+        width: 300px;
+    }
+
+    section.sobre img {
+        height: 390px;
+        margin-left: -15px;
+        margin-top:70px;
+    }
+
+    input.bot2 {
+        width: 300px;
+        margin-left: 400px;
+    }
+
+    a.ver {
+        margin: 80px;
+    }
+
+    div.botao2 {
+        padding: 10px;
+    }
+
+    div.proj iframe {
+        width: 210px;
+        height: 180px;
+    }
+    
+    div.fecha{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    div.titulo {
+        margin-top: -100px;
+    }
+
+    div.bot1 {
+        padding-top: -400px;
+    }
+
+    section.sobre img {
+        margin-top: 60px;
+        height: 450px;
+    }
+
+    input.bot2 {
+        width: 350px;
+    }
+
+    a.ver {
+        margin: 80px;
+    }
+
+    div.botao2 {
+        padding: 10px;
+    }
+
+    div.proj iframe {
+        width: 300px;
+        height: 250px;
+    }
+
+    div.fecha {
+        margin: auto;
+        padding-top: 200px;
+    }
+
+    #next-button {
+        margin-right: 100px;
+    }
+}

@@ -125,13 +125,13 @@ div.contain1 p {
 }
 
 section.sobre img {
-    width: 350px;
+    width: 300px;
     padding: 20px;
     margin-left: 200px;
 }
 
 div.bot3 {
-    margin-top: -200px;
+    margin-top: -60px;
 }
 
 input.bot2 {
@@ -142,7 +142,7 @@ input.bot2 {
     padding: 20px;
     border-radius: 30px;
     border: none;
-    margin-left: 800px;
+    margin-left: 650px;
     cursor: pointer;
     text-shadow: 1px 1px 1px black;
 }
@@ -156,7 +156,7 @@ input.bot2:hover {
 /* Projétos */
 
 section.projetos {
-    height: 1700px;
+    height: 1900px;
     background-color: rgba(0, 0, 0, 0.829);
 }
 
@@ -182,9 +182,23 @@ section.projetos p {
     color: white;
 }
 
+a.ver {
+    margin: 150px;
+    text-decoration: none;
+    color: white;
+}
+
+div.botao2 {
+    margin: auto;
+    width: 90vw;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
 div.proj iframe {
     padding: 15px;
-    width: 450px;
+    width: 350px;
     height: 300px;
     margin-top: 20px;
     margin-left: 10px;
@@ -234,7 +248,7 @@ div.video {
 }
 
 #next-button {
-    margin-left: 300px;
+    margin-left: 400px;
 }
 
 #prev-button img, #next-button img {
@@ -243,6 +257,21 @@ div.video {
 }
 
 div.fecha {
-    margin-left: 480px;
+    margin-left: 400px;
     margin-top: 200px;
+}
+
+/* contatos */  
+
+
+section.contatos {
+    height: 800px;
+}
+
+section.contatos h2 {
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+    font-size: 28pt;
 }
